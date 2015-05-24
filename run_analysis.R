@@ -1,6 +1,7 @@
 #First read in the downloaded files (train and test) and merge them together
 #Read the subjects and merge
 
+library("reshape2")
 a1<-read.table("./UCI HAR Dataset/train/subject_train.txt", sep="\t")
 b1<-read.table("./UCI HAR Dataset/test/subject_test.txt", sep="\t")
 subject_both<-rbind(a1,b1)

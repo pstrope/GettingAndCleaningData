@@ -140,9 +140,9 @@ Variable Names of the tidy data
 
 Description of variable names in the tidy data
 ---------------------
-subject: This column identifies the person ID who performed the activity. This column ranges from 1 to 30.
+subject: This column identifies the person ID who performed the activity. This column value ranges from 1 to 30.
 
-activity_description: This column lists the activity name performed. There are 6 activities.
+activity_description: This column lists the activity name performed. There are 6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
 
 The rest of the variables are the averages of the signals (the mean and standard deviations of the signals listed below) for each person for each activity.
 
